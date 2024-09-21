@@ -21,9 +21,12 @@ struct CourseSummaryComponent: View {
                 Button(action: {
                     // Action for the View button
                 }) {
-                    Text("View")
-                        .font(.subheadline)
-                        .foregroundColor(.blue)
+                    Button(action: {
+                        // View action
+                    }) {
+                        Text("View")
+                            .foregroundColor(.blue)
+                    }
                 }
             }
             .padding(.bottom, 5)

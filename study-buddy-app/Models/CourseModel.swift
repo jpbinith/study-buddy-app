@@ -8,7 +8,6 @@
 import Foundation
 
 struct CourseModel: Identifiable {
-//    Unique identifier for each recipe
     var id = UUID()
     var courseName: String
     var currentMarks: Double
