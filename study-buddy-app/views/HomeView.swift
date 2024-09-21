@@ -11,9 +11,9 @@ struct HomeView: View {
     
     let courses = [
         CourseModel(courseName: "Algorithm & Analysis", currentMarks: 40, lostMarks: 20, remainingMarks: 40),
-        CourseModel(courseName: "Algorithm & Analysis", currentMarks: 40, lostMarks: 20, remainingMarks: 40),
-        CourseModel(courseName: "Algorithm & Analysis", currentMarks: 40, lostMarks: 20, remainingMarks: 40),
-        CourseModel(courseName: "Algorithm & Analysis", currentMarks: 40, lostMarks: 20, remainingMarks: 40)
+        CourseModel(courseName: "Big Data Processing", currentMarks: 52, lostMarks: 18, remainingMarks: 30),
+        CourseModel(courseName: "AI", currentMarks: 60, lostMarks: 15, remainingMarks: 25),
+        CourseModel(courseName: "Database Concepts", currentMarks: 44, lostMarks: 16, remainingMarks: 40)
     ]
     var body: some View {
         VStack(alignment: .leading) {
