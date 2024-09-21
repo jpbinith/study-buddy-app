@@ -19,6 +19,10 @@
 		0F66093D2C9E98F90011C0DA /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F66093C2C9E98F90011C0DA /* NotificationView.swift */; };
 		0F6609412C9E9CE80011C0DA /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6609402C9E9CE80011C0DA /* CalendarView.swift */; };
 		0F6609432C9E9CF60011C0DA /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6609422C9E9CF60011C0DA /* TodoView.swift */; };
+		0F6609462C9EA68D0011C0DA /* HomeScreenHeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6609452C9EA68D0011C0DA /* HomeScreenHeaderComponent.swift */; };
+		0F6609482C9EA9A40011C0DA /* DegreeSummaryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6609472C9EA9A40011C0DA /* DegreeSummaryComponent.swift */; };
+		0F66094A2C9EAC4F0011C0DA /* CourseSummaryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6609492C9EAC4F0011C0DA /* CourseSummaryComponent.swift */; };
+		0F66094D2C9EB38E0011C0DA /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F66094C2C9EB38E0011C0DA /* CourseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		0F66093C2C9E98F90011C0DA /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		0F6609402C9E9CE80011C0DA /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		0F6609422C9E9CF60011C0DA /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		0F6609452C9EA68D0011C0DA /* HomeScreenHeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenHeaderComponent.swift; sourceTree = "<group>"; };
+		0F6609472C9EA9A40011C0DA /* DegreeSummaryComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DegreeSummaryComponent.swift; sourceTree = "<group>"; };
+		0F6609492C9EAC4F0011C0DA /* CourseSummaryComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSummaryComponent.swift; sourceTree = "<group>"; };
+		0F66094C2C9EB38E0011C0DA /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,8 @@
 		0F66090A2C9E8FB50011C0DA /* study-buddy-app */ = {
 			isa = PBXGroup;
 			children = (
+				0F66094B2C9EB37B0011C0DA /* Models */,
+				0F6609442C9EA67E0011C0DA /* components */,
 				0F6609352C9E90730011C0DA /* views */,
 				0F66090B2C9E8FB50011C0DA /* study_buddy_appApp.swift */,
 				0F66090D2C9E8FB50011C0DA /* ContentView.swift */,
@@ -148,6 +158,24 @@
 				0F6609422C9E9CF60011C0DA /* TodoView.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		0F6609442C9EA67E0011C0DA /* components */ = {
+			isa = PBXGroup;
+			children = (
+				0F6609452C9EA68D0011C0DA /* HomeScreenHeaderComponent.swift */,
+				0F6609472C9EA9A40011C0DA /* DegreeSummaryComponent.swift */,
+				0F6609492C9EAC4F0011C0DA /* CourseSummaryComponent.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		0F66094B2C9EB37B0011C0DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0F66094C2C9EB38E0011C0DA /* CourseModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,13 +308,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F66094D2C9EB38E0011C0DA /* CourseModel.swift in Sources */,
 				0F66090E2C9E8FB50011C0DA /* ContentView.swift in Sources */,
 				0F66093B2C9E98CB0011C0DA /* HomeView.swift in Sources */,
 				0F6609432C9E9CF60011C0DA /* TodoView.swift in Sources */,
+				0F6609482C9EA9A40011C0DA /* DegreeSummaryComponent.swift in Sources */,
 				0F6609412C9E9CE80011C0DA /* CalendarView.swift in Sources */,
+				0F66094A2C9EAC4F0011C0DA /* CourseSummaryComponent.swift in Sources */,
 				0F66090C2C9E8FB50011C0DA /* study_buddy_appApp.swift in Sources */,
 				0F6609372C9E90AF0011C0DA /* SplashScreenView.swift in Sources */,
 				0F66093D2C9E98F90011C0DA /* NotificationView.swift in Sources */,
+				0F6609462C9EA68D0011C0DA /* HomeScreenHeaderComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
