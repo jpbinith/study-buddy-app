@@ -14,6 +14,11 @@
 		0F66091D2C9E8FB70011C0DA /* study_buddy_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F66091C2C9E8FB70011C0DA /* study_buddy_appTests.swift */; };
 		0F6609272C9E8FB70011C0DA /* study_buddy_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6609262C9E8FB70011C0DA /* study_buddy_appUITests.swift */; };
 		0F6609292C9E8FB70011C0DA /* study_buddy_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6609282C9E8FB70011C0DA /* study_buddy_appUITestsLaunchTests.swift */; };
+		0F6609372C9E90AF0011C0DA /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6609362C9E90AF0011C0DA /* SplashScreenView.swift */; };
+		0F66093B2C9E98CB0011C0DA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F66093A2C9E98CB0011C0DA /* HomeView.swift */; };
+		0F66093D2C9E98F90011C0DA /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F66093C2C9E98F90011C0DA /* NotificationView.swift */; };
+		0F6609412C9E9CE80011C0DA /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6609402C9E9CE80011C0DA /* CalendarView.swift */; };
+		0F6609432C9E9CF60011C0DA /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6609422C9E9CF60011C0DA /* TodoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		0F6609222C9E8FB70011C0DA /* study-buddy-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "study-buddy-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6609262C9E8FB70011C0DA /* study_buddy_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = study_buddy_appUITests.swift; sourceTree = "<group>"; };
 		0F6609282C9E8FB70011C0DA /* study_buddy_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = study_buddy_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F6609362C9E90AF0011C0DA /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		0F66093A2C9E98CB0011C0DA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0F66093C2C9E98F90011C0DA /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		0F6609402C9E9CE80011C0DA /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		0F6609422C9E9CF60011C0DA /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,7 @@
 		0F66090A2C9E8FB50011C0DA /* study-buddy-app */ = {
 			isa = PBXGroup;
 			children = (
+				0F6609352C9E90730011C0DA /* views */,
 				0F66090B2C9E8FB50011C0DA /* study_buddy_appApp.swift */,
 				0F66090D2C9E8FB50011C0DA /* ContentView.swift */,
 				0F66090F2C9E8FB70011C0DA /* Assets.xcassets */,
@@ -125,6 +136,18 @@
 				0F6609282C9E8FB70011C0DA /* study_buddy_appUITestsLaunchTests.swift */,
 			);
 			path = "study-buddy-appUITests";
+			sourceTree = "<group>";
+		};
+		0F6609352C9E90730011C0DA /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0F6609362C9E90AF0011C0DA /* SplashScreenView.swift */,
+				0F66093A2C9E98CB0011C0DA /* HomeView.swift */,
+				0F66093C2C9E98F90011C0DA /* NotificationView.swift */,
+				0F6609402C9E9CE80011C0DA /* CalendarView.swift */,
+				0F6609422C9E9CF60011C0DA /* TodoView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F66090E2C9E8FB50011C0DA /* ContentView.swift in Sources */,
+				0F66093B2C9E98CB0011C0DA /* HomeView.swift in Sources */,
+				0F6609432C9E9CF60011C0DA /* TodoView.swift in Sources */,
+				0F6609412C9E9CE80011C0DA /* CalendarView.swift in Sources */,
 				0F66090C2C9E8FB50011C0DA /* study_buddy_appApp.swift in Sources */,
+				0F6609372C9E90AF0011C0DA /* SplashScreenView.swift in Sources */,
+				0F66093D2C9E98F90011C0DA /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
